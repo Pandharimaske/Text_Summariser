@@ -9,7 +9,6 @@ from src.textSummarizer.logging import logger
 import evaluate
 
 
-
 class ModelEvaluation:
     def __init__(self , config:ModelEvaluationConfig):
         self.config = config
